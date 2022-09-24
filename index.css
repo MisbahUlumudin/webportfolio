@@ -141,7 +141,7 @@ table {
 	height: 400px;
 	padding-top: 20px;
 	margin: auto;
-	border: 2Px SOLID black;
+	
 	
 	padding-top: 100px;
 
@@ -176,7 +176,7 @@ table {
 .cont-about{
 	width: 1000px;
 	margin: auto;
-	border: 2px solid black;
+	
 	margin-top: 80px;
 	color: white;
 	margin-bottom: 100px;
@@ -224,7 +224,7 @@ table {
 .images-atas .satu{
 	width: 380px;
 	height: 250px;
-	border: 2px solid black;
+	
 	float: left;
 	margin-right: 20px;
 	border-bottom: 40px solid white;
@@ -236,7 +236,7 @@ table {
 .images-atas .dua{
 	width: 380px;
 	height: 250px;
-	border: 2px solid black;
+	
 	float: left;
 	margin-right: 20px;
 	border-bottom: 40px solid white;
@@ -245,7 +245,7 @@ table {
 .images-atas .tiga{
 	width: 380px;
 	height: 250px;
-	border: 2px solid black;
+	
 	float: left;
 	border-bottom: 40px solid white;
 
@@ -270,14 +270,14 @@ table {
 .images-bawah{
 	width: 850px;
 	height: 250px;
-	border: solid 2px black;
+	
 	margin: auto;
 	margin-top: 20px;i
 }
 .images-bawah .empat{
 	width: 415px;
 	height: 250px;
-	border: solid 2px black;
+	
 	float: left;
 	border-bottom: 40px solid white;
 }
@@ -288,7 +288,7 @@ table {
 .images-bawah .lima{
 	width: 415px;
 	height: 250px;
-	border: solid 2px black;
+	;
 	float: left;
 	margin-left:12px;
 	border-bottom: 40px solid white;
@@ -302,7 +302,7 @@ table {
 .cont-contact .judul-contact{
 	margin: auto;
 	width: 400px;
-	border: 2px solid black;
+	
 
 }
 .cont-contact .judul-contact h1{
@@ -315,7 +315,7 @@ table {
 .kolom-input{
 	width: 800px;
 	margin: auto;
-	border: 2px solid black;
+	
 }
 .kolom-input input {
 	width: 300px;
