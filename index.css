@@ -1,0 +1,383 @@
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+/*css reset*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.container{
+
+	background-image: url("img/bg1.avif");
+	opacity: 90%;
+	width: 100%
+	
+}
+.topbar{
+	height: 50px;
+	width: 100%;
+	background-color: #18a7ff;
+	position: fixed;
+	opacity: 90%;
+	margin-bottom: 50px;
+	
+	
+}
+
+.topbar .nama h1{
+	font-size: 20px;
+	padding-top: 10px;
+	padding-left: 130px;
+	float: left;
+	color: white;
+
+}
+.topbar .menu a{
+	text-decoration: none;
+	display: inline-block;
+	float: left;
+	color: white;
+	padding-right: 15px;
+	text-align: center;
+
+
+
+}
+.menu ul li a{
+	width: 100px;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: monospace;
+
+
+}
+.menu ul li a:hover{
+	background-color: white;
+	color:#18a7ff ;
+}
+.topbar .menu {
+	
+	 height: 20px;
+	 width: 40%;
+	 float: right;
+	 margin-right: 50px;
+	 margin-top: 10px;
+
+}
+.content{
+	height: 500px;
+}
+.hero  {
+	width: 400px;
+	height: 400px;
+	padding-top: 20px;
+	margin: auto;
+	border: 2Px SOLID black;
+	
+	padding-top: 100px;
+
+}
+.content .hero img{
+
+	border-radius: 50%;
+	height: 300px;
+	width: 300px;
+
+
+}
+.hero h1{
+	font-size: 30PX;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: white;
+
+
+
+}
+.hero p{
+	font-size: 30px;
+	color: white;
+}
+.hero section {
+	padding-left: 40px;
+}
+.about{
+	margin: auto;
+}
+.cont-about{
+	width: 1000px;
+	margin: auto;
+	border: 2px solid black;
+	margin-top: 80px;
+	color: white;
+	margin-bottom: 100px;
+}
+.about-a{
+	width: 450px;
+	float: left;
+}
+.about-b{
+	width: 450px;
+	float: right;
+}
+.content-satu .me h1{
+	text-align: center;
+	font-size: 40px;
+	font-family: arial;
+	font-weight: bold;
+	color: white;
+
+}
+.content-satu{
+	background-image: url("img/bg3.avif");
+	background-position: 30% 0% 0% 90%;
+
+}
+.project .judul h1{
+	font-family: arial;
+	font-size: 30px;
+	font-weight: bolder;
+	text-align: center;
+	color: white;
+/*	margin-top: 400px;*/
+
+}
+
+.images-atas{
+	width: 1200px;
+	height: 350px;
+	border: 2px solid black;
+	margin: auto;
+	box-sizing: border-box;
+	margin-top: 200px;
+
+}
+.images-atas .satu{
+	width: 380px;
+	height: 250px;
+	border: 2px solid black;
+	float: left;
+	margin-right: 20px;
+	border-bottom: 40px solid white;
+}
+.images-atas .satu p{
+	width: 380px;
+
+}
+.images-atas .dua{
+	width: 380px;
+	height: 250px;
+	border: 2px solid black;
+	float: left;
+	margin-right: 20px;
+	border-bottom: 40px solid white;
+
+}
+.images-atas .tiga{
+	width: 380px;
+	height: 250px;
+	border: 2px solid black;
+	float: left;
+	border-bottom: 40px solid white;
+
+}
+.images-atas .satu img {
+	width: 380px;
+	height: 250px;
+	
+}
+.images-atas .dua img {
+	width: 380px;
+	height: 250px;
+}
+.images-atas .tiga img {
+	width: 380px;
+	height: 250px;
+}
+.images-atas .satu p{
+	position: absolute;
+	margin-bottom: 20px;
+}
+.images-bawah{
+	width: 850px;
+	height: 250px;
+	border: solid 2px black;
+	margin: auto;
+	margin-top: 20px;i
+}
+.images-bawah .empat{
+	width: 415px;
+	height: 250px;
+	border: solid 2px black;
+	float: left;
+	border-bottom: 40px solid white;
+}
+.images-bawah .empat img{
+	width: 415px;
+	height: 250px;
+}
+.images-bawah .lima{
+	width: 415px;
+	height: 250px;
+	border: solid 2px black;
+	float: left;
+	margin-left:12px;
+	border-bottom: 40px solid white;
+}
+.images-bawah .lima img{
+	width: 415px;
+	height: 250px;
+}
+
+
+.cont-contact .judul-contact{
+	margin: auto;
+	width: 400px;
+	border: 2px solid black;
+
+}
+.cont-contact .judul-contact h1{
+	font-size: 40px;
+	font-family: arial;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+}
+.kolom-input{
+	width: 800px;
+	margin: auto;
+	border: 2px solid black;
+}
+.kolom-input input {
+	width: 300px;
+
+}
+
+div .nama textarea{
+	width: 600px;
+	height: 20px;
+}
+.nama label{
+	font-size: 20px;
+	font-weight: bold;
+	color: white;	
+}
+.email label{
+		font-size: 20px;
+	font-weight: bold;
+	color: white;	
+}
+
+
+div .email textarea{
+	width: 600px;
+	height: 20px
+
+}
+div .pesan textarea {
+	width: 600px;
+	height: 150px;
+	background-color: grey;
+	color: white;
+}
+.pesan label{
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+.kolom-input .button img{
+	width: 70px;
+	height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
